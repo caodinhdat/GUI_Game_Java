@@ -312,8 +312,7 @@ public class Game_GUI {
                 private String generateHiddenNumber()
                 {
                         Random rand = new Random();
-                        return "1234";
-                        // return String.format("%04d", rand.nextInt(10000));
+                        return String.format("%04d", rand.nextInt(10000));
                 }
                 public String getResult(Answers ans)
                 {
